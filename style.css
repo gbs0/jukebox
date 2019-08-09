@@ -41,8 +41,7 @@ body {
 }*/
 
 .player {
-	display: flex;
-	justify-content: space-around;
+  align-self: center;
 }
 
 
