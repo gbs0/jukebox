@@ -1,0 +1,58 @@
+/*Google Fonts*/
+@import url('https://fonts.googleapis.com/css?family=Scope+One&display=swap');
+
+/*Fonte & Background*/
+body {
+	background-color: #E2C044;
+	font-family: 'Scope One', serif;
+	color: white;
+}
+
+/*Margem da página*/
+.container {
+  padding-right: 5em;
+  padding-left: 5em;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+  margin-bottom: 4em;
+}
+
+.vinyl {
+	width: 25vw;
+	position: absolute;
+  z-index: 1;
+}
+
+/*.stand {
+  position: absolute;
+  margin-left: 90px;
+  z-index: 0;
+  margin-top: 90px;
+}*/
+
+.player {
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.button {
+  color: #999999;
+  padding: 13px 45px;
+  border-radius: 30px;
+  font-weight: bolder;
+  opacity: 0.8;
+  text-decoration: none;
+  background-color: #DDDD;
+}
+
+.button:hover {
+  opacity: 1;
+  text-decoration: none;
+  color: #999999;
+  border: 1px solid #999999;
+}
