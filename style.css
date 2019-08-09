@@ -3,6 +3,7 @@
 @import url('style/button.css');
 @import url('style/shadow.css');
 @import url('style/vinyl.css');
+@import url('style/texture.css');
 
 /*Fonte & Background*/
 body {
@@ -30,9 +31,6 @@ body {
   border: 1px solid #E2C044;
 }
 
-
-
-
 /*.stand {
   position: absolute;
   margin-left: 90px;
@@ -43,4 +41,3 @@ body {
 .player {
   align-self: center;
 }
-
