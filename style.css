@@ -23,6 +23,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #e8e8e8;
+  border-radius: 13px;
 }
 
 
