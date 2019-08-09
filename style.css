@@ -1,6 +1,8 @@
 /*Google Fonts*/
 @import url('https://fonts.googleapis.com/css?family=Scope+One&display=swap');
-@import url('comp');
+@import url('style/button.css');
+@import url('style/shadow.css');
+@import url('style/vinyl.css');
 
 /*Fonte & Background*/
 body {
@@ -29,11 +31,7 @@ body {
 }
 
 
-.vinyl {
-	width: 25vw;
-	position: absolute;
-  z-index: 1;
-}
+
 
 /*.stand {
   position: absolute;
@@ -44,23 +42,5 @@ body {
 
 .player {
   align-self: center;
-}
-
-
-.button {
-  color: #999999;
-  padding: 13px 45px;
-  border-radius: 30px;
-  font-weight: bolder;
-  opacity: 0.8;
-  text-decoration: none;
-  background-color: #DDDD;
-}
-
-.button:hover {
-  opacity: 1;
-  text-decoration: none;
-  color: #999999;
-  border: 1px solid #999999;
 }
 
