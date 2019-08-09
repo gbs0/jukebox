@@ -10,8 +10,6 @@ body {
 
 /*Margem da página*/
 .container {
-  padding-right: 5em;
-  padding-left: 5em;
   margin-right: auto;
   margin-left: auto;
   display: flex;
@@ -20,6 +18,13 @@ body {
   height: 450px;
   margin-bottom: 4em;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #e8e8e8;
+}
+
 
 .vinyl {
 	width: 25vw;
