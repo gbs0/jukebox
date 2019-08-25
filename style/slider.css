@@ -1,7 +1,12 @@
 .slider-orange {
+	background: #EA896B;
+	padding: 13px 45px;
+  border-radius: 30px;
 
 }
 
 .slider-green {
-	
+	background: #4FA652;
+	padding: 13px 45px;
+  border-radius: 30px;
 }
