@@ -11,7 +11,7 @@
 
 /*Fonte & Background*/
 body {
-	background-color: #8b4367;
+	
 	font-family: 'Scope One', serif;
 	color: white;
 }
@@ -31,9 +31,9 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 20vh;
-  background-color: #e8e8e8;
+  background-color: #8b4367;
   border-radius: 13px;
-  border-right: 10vw solid #e8e8e8;
+  border-right: 10vw solid #8b4367;
 }
 
 /*.stand {
@@ -48,7 +48,6 @@ body {
 }
 
  .inner-border {
-  
   box-shadow: inset 0px 7px 8px 8px #453b3be0;
   box-sizing: border-box; /* Include padding and border in element's width and height */
 }
